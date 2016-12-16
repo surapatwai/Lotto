@@ -7,7 +7,12 @@
 int main()
 {
   srand (time(NULL));
+  int first = rand() % 1000000;
+  int last2 = rand() % 100;
+  int last3 = rand()%1000;
 
-  int Lotto = rand() % 1000000;
-  std::cout<< Lotto ;
+  std::cout << first << std::endl;
+  std::cout<< last2 << std::endl;
+  std::cout<< last3 << std::endl;
+  
 }
